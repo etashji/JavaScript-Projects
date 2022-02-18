@@ -44,12 +44,14 @@ function random() { //This defines the function: random()
 
 function increment() { //This defines the increment() function
     var x = 5; //This defines the x variable
-   document.getElementById("Increment").innerHTML = "Increment: " + x++; //This gives the function an id, which the html can refer to
+    x++;
+   document.getElementById("Increment").innerHTML = "Increment: " + x; //This gives the function an id, which the html can refer to
 }
 
 function decrement() { //This defines the decrement() function
     var y = 5; //This assigns a vlaue to the y variable
-   document.getElementById("Decrement").innerHTMl = "Decrement: " + y--; //This give the element an id, which the html can refer to
+    y--;
+   document.getElementById("Decrement").innerHTMl = "Decrement: " + y; //This give the element an id, which the html can refer to
 }
 
 

@@ -40,7 +40,6 @@ function my_Person() { //This defines the my_Person() function
     "Eric's name is " + Eric.firstName + " " + Eric.lastName + 
     ". He is " + Eric.age + " years old and has " + Eric.eyeColor + " eyes."; //This assigns an id for use by the HTML and gives it instructions
 }
-}
 
 function count_Function() { //This defines the count_Function()
     document.getElementById("Nested_Function").innerHTML = Count(); //This assigns an id for use by the HTML and gives it instruction

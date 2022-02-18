@@ -51,7 +51,7 @@ function increment() { //This defines the increment() function
 function decrement() { //This defines the decrement() function
     var y = 5; //This assigns a value to the y variable
     y--; //This decrements the y value
-   document.getElementById("Decrement").innerHTMl = "Decrement: " + y; //This give the element an id, which the html can refer to
+   document.getElementById("Decrement").innerHTML = "Decrement: " + y; //This give the element an id, which the html can refer to
 }
 
 

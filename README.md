@@ -85,6 +85,6 @@
   * tictactoe.html: This is a website with a tictactoe game.
 ## jQuery
   * jQuery.html: This is an html file that makes use of jQuery
-##README.md: The repository's README file
+## README.md: The repository's README file
    
        

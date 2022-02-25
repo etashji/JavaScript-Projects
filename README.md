@@ -5,6 +5,6 @@
   * style.css: a stylesheet for content.html
 ## Basic JavaScript Projects
   ### Async
-    #### JS
+    JS
       * async.js
    * index.html

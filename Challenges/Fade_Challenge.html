@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fade Challenge</title>
+        <meta charset="UTF-8">
+    </head>
+    <style>
+        .fade-in:hover {
+            animation-name:FadeIn;
+            animation-duration: 3s;
+            transition-timing-function: linear;
+        }
+
+        @keyframes FadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-moz-keyframes FadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-webkit-keyframes FadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-o-keyframes FadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-ms-keyframes FadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+    <body>
+        <div 
+            class="fade-in"
+            style="background-color: aqua; border-radius: 5px; padding: 10px"
+        >
+
+            <h1>Hover on me and see the animation</h1>
+        </div>
+    </body>
+</html>

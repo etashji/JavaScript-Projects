@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Challenge</title>
+        <meta charset="UTF-8">
+        <script>
+            function validateForm() {
+                let x = document.forms["myForm"]["pnum"].value;
+                if (x == "") {
+                    alert("Phone Number must be filled out");
+                    return false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h2>JavaScript Validation</h2>
+       <form name="myForm" onsubmit="return validateForm()" 
+            method="post">
+            Phone Number:<input type="text" name="pnum">
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

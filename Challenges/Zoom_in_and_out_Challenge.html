@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Zoom in and out Challenge</title>
+        <meta charset="UTF-8">
+        <style>
+            @keyframes zoominoutsinglefeatured {
+                0% {
+                    transform: scale(1,1);
+                }
+                50% {
+                    transform: scale(1.2,1.2);
+                }
+                100% {
+                    transform: scale(1,1);
+                }
+            }
+
+            .single-featured-image-header img {
+                animation: zoominoutsinglefeatured 15s forwards;
+            }
+        </style>
+    </head>
+    <body>
+       <div class="single-featured-image-header">
+           <img src="image/image1.jpg">
+       </div>
+    </body>
+</html>

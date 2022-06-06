@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>challenge.html</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <p id="XML_Example"></p>
+        <script>
+            var XML_Parser, XML_Document;
+
+            //creates a text string
+            var Character = "<character>" +
+            "<name>Vax</name>" +
+            "<race>Half Elf</race>" +
+            "<class>Rogue</class>" +
+            "<actor>Liam</actor>" +
+            "</character>";
+
+            //creates an XML DOM parser
+            XML_Parser = new DOMParser();
+
+            //creates a new XML DOM object using the text string
+            XML_Document = XML_Parser.parseFromString(Character,"text/xml");
+
+            document.getElementById("XML_Example").innerHTML =
+            XML_Document.getElementsByTagName("race") [0].childNodes[0].nodeValue;
+        </script>
+    </body>
+</html>
